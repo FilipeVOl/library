@@ -1,0 +1,114 @@
+
+.book-item {
+    display: flex;
+    justify-content: center;
+}
+
+#newbook {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1em;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form {
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #333;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
+} 
+
+.card {
+    display: inline-block;
+    width: 400px;
+    height: 250px;
+    margin: 10px;
+    padding: 0 0 20px 0;
+    border: 1px solid #ccc;
+}
+
+.card-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 22px;
+}
+
+.card-author {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-pages {
+    margin: 0;
+    font-size: 18px;
+}
+
+.read-status {
+    margin: 10px 0 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    padding: 10px 20x;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
